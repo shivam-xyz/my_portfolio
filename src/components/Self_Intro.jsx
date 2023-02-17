@@ -7,7 +7,7 @@ import { Avatar, Box, Button, Grid, Typography } from '@mui/material';
 import React from 'react';
 import my_image from '../assets/images/me1.jpg';
 
-const Self_Intro = () => {
+const Self_Intro = ({scrollHandler}) => {
   return (
     <Grid container>
                 <Grid item xs={12} sm={6}>
@@ -41,10 +41,10 @@ const Self_Intro = () => {
                             </Avatar>
                         </Box>
                         <Box sx={{ display: 'flex', justifyContent: 'space-evenly', mt: 2, mb: 3 }}>
-                            <Button variant='contained'>
+                            <Button variant='contained' onClick={scrollHandler}>
                                 CONTACT ME
                             </Button>
-                            <Button variant='contained'>
+                            <Button variant='contained' onClick={()=>{window.open('https://drive.google.com/file/d/1nOE1CGDhlptz3iec7ZeVcLQE-Q7ycStl/view?usp=share_link','_parent')}}>
                                 SEE MY RESUME
                             </Button>
                         </Box>

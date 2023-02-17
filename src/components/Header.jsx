@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
         <AppBar>
-            <Toolbar sx={{justifyContent:'center'}}>
+            <Toolbar sx={{justifyContent:'center'}} >
                 <Typography variant='h5' fontWeight={700}>{"< "}Shivam Singh{" />"}</Typography>
             </Toolbar>
         </AppBar>

@@ -8,6 +8,7 @@ const Certification = () => {
             sn: 1,
             title: 'Frontend',
             description: 'Meta (Facebook) by Coursera',
+            url:'https://drive.google.com/file/d/1Fg17xpngKKyPoTGE6nKVoBTpfDF7mpen/view?usp=share_link',
             image: meta
         },
         {
@@ -34,7 +35,7 @@ const Certification = () => {
                 arrCertifications.map((certificate) => {
                     return (
                         <>
-                            <Grid item xs={12} sm={6}>
+                            <Grid item xs={12} sm={6} onClick={()=>{window.open(certificate.url,'_parent')}}>
                                 <Card sx={[{ p: 1, mb: 2 }, (theme) => ({ '&:hover': { background: 'linear-gradient(180deg, rgba(67,58,238,1) 0%, rgba(148,148,242,1) 42%, rgba(220,229,247,1) 100%)' } })]} >
                                     <Grid container>
                                         <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>

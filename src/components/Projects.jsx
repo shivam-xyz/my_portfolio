@@ -11,7 +11,7 @@ const Projects = () => {
             title: 'Wear365 Backend',
             description: 'Node Backend, MongoDB, and RestApi',
             workMode: 'Made Alone',
-            gitUrl:'https://github.com/shivam-xyz/wear365',
+            gitUrl:'https://github.com/shivam-xyz/wear365_Backend',
             outputLevel: 'Satisfied'
         },
         {
@@ -126,7 +126,7 @@ const Projects = () => {
                 }
             </Grid>
             <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-                <Button variant='contained'>
+                <Button variant='contained' onClick={()=>{window.open('https://github.com/shivam-xyz?tab=repositories','_blank')}}>
                     MORE PROJECTS
                 </Button>
             </Box>
