@@ -5,11 +5,12 @@ import MainPage from './pages/MainPage';
 function App() {
   return (
     <>
-      <Router>
+    baby
+      {/* <Router>
         <Routes>
           <Route exact path='/home' element={<MainPage/>} />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 }
