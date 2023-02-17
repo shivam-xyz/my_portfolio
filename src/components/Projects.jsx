@@ -32,7 +32,7 @@ const Projects = () => {
         {
             sn: 1,
             title: 'Wear365 Backend',
-            description: 'React Frontend, Node Backend, MongoDB, and RestApi',
+            description: 'Node Backend, MongoDB, and RestApi',
             workMode: 'Made Alone',
             gitUrl:'https://github.com/shivam-xyz/wear365',
             outputLevel: 'Satisfied'
@@ -100,6 +100,14 @@ const Projects = () => {
             gitUrl:'https://github.com/shivam-xyz/my_portfolio',
             outputLevel: 'Satisfied'
         },
+        {
+            sn: 9,
+            title: 'wear365 Frontend',
+            description: 'React Frontend, Mui Css Framework',
+            workMode: 'Made Alone',
+            gitUrl:'https://github.com/shivam-xyz/wear365_Frontend',
+            outputLevel: 'Satisfied'
+        }
     ];
   return (
     <>
